@@ -1,0 +1,189 @@
+{
+    "hullName":"Defiant",
+    "hullId":"terran_defiant",
+    "hullSize":"FRIGATE",
+    "style":"TERRAN_TECH",
+    "spriteName":"graphics/ships/terran_defiant.png",
+    "height":142,
+    "width":110,
+    "center":[
+        55, 71
+    ],
+    "collisionRadius":256,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":150,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":0,
+            "locations":[
+                    10.5,      -36
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":0,
+            "locations":[
+                    10.5,       36
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":0,
+            "locations":[
+                       6,      -51
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":0,
+            "locations":[
+                       6,       51
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                    51.5,    -10.5
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                    51.5,     10.5
+            ]
+        },
+        {
+            "id":"WS 006",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                   -18.5,    -20.5
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                   -18.5,     20.5
+            ]
+        },
+        {
+            "id":"WS 008",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":179.5,
+            "locations":[
+                   -36.5,      -28
+            ]
+        },
+        {
+            "id":"WS 009",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":180.5,
+            "locations":[
+                   -36.5,       28
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                -36.5, 35
+            ],
+            "length":0.5,
+            "width":20,
+            "angle":190,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                -36.5, -35
+            ],
+            "length":0.5,
+            "width":20,
+            "angle":170,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+           -68.5,       14,
+             -46,     24.5,
+             -36,       27,
+           -38.5,     45.5,
+               4,       52,
+        
+              10,     37.5,
+            28.5,       33,
+            42.5,       22,
+            50.5,     10.5,
+              69,      6.5,
+        
+              69,     -6.5,
+            50.5,    -10.5,
+            42.5,      -22,
+            28.5,      -33,
+              10,    -37.5,
+        
+               4,      -52,
+           -38.5,    -45.5,
+             -36,      -27,
+             -46,    -24.5,
+           -68.5,      -14
+    # 20 points total.
+    ]
+}

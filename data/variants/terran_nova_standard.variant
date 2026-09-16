@@ -1,0 +1,46 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"terran_nova",
+    "hullMods":[
+        "impulseEngines_small",
+        "warp_core_small",
+        "terranShields"
+    ],
+    "quality":0.0,
+    "variantId":"terran_nova_standard",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 003":"phaser_typeX_small",
+                "WS 002":"phaser_typeX_small",
+                "WS 001":"phaser_typeX_small",
+                "WS 000":"phaser_typeX_small",
+                "WS 009":"phaser_typeX_small",
+                "WS 008":"phaser_typeX_small"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 011":"photon_torpedo_type6_s",
+                "WS 010":"photon_torpedo_type6_s"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 004":"phaser_typeX_small",
+                "WS 006":"phaser_typeX_small",
+                "WS 005":"phaser_typeX_small",
+                "WS 007":"phaser_typeX_small"
+            }
+        }
+    ]
+}

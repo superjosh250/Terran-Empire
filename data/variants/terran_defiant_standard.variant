@@ -1,0 +1,44 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"terran_defiant",
+    "hullMods":[
+        "impulseEngines_small",
+        "warp_core_small",
+        "terranShields"
+    ],
+    "quality":0.0,
+    "variantId":"terran_defiant_standard",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 002":"pulse_phaser_typeX",
+                "WS 000":"pulse_phaser_typeX",
+                "WS 003":"pulse_phaser_typeX",
+                "WS 001":"pulse_phaser_typeX"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 008":"photon_torpedo_type6_s",
+                "WS 009":"photon_torpedo_type6_s",
+                "WS 005":"photon_torpedo_type6_s",
+                "WS 004":"photon_torpedo_type6_s"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 007":"phaser_typeX_small",
+                "WS 006":"phaser_typeX_small"
+            }
+        }
+    ]
+}

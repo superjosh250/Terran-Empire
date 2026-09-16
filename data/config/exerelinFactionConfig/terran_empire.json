@@ -1,0 +1,57 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "hostileToAll":1,
+    
+    "rebelFleetSuffix":"Rebels",
+
+    "marketSpawnWeight":1,
+    
+    "difficultyString":"hard",
+    "ngcTooltip":"A powerful rival to the United Federation of Planets. Can you promote the HUMAN ideal?",
+
+    "asteroidMiningFleetName":"Miner",
+    "gasMiningFleetName":"Fuel Collection",
+    "invasionFleetName":"Subjugation",
+    "responseFleetName":"Tact Reposition",
+    "invasionSupportFleetName":"Sub Group",
+    "defenceFleetName":"Defens",
+    "stationName":"Starbase",
+    
+    "morality":"evil",
+    
+    "allowAgentActions":true,
+    "allowPrisonerActions":false,
+    
+    "alignments":{
+        "hierarchical":1,
+        "militarist":1,
+        "diplomatic":-1,
+        "ideological":0,
+    },
+    "diplomacyTraits":["paranoid", "stalwart", "irredentist", "law_and_order", "temperamental"],
+    
+    # legacy invasion settings
+    "invasionStrengthBonusAttack":0.65,
+    "invasionStrengthBonusDefend":0.2,
+    
+    "groundBattleSettings":{
+        "attackMult":1.25,
+        "defenseMult":1.25,
+        "moraleDamageTakenMult":0.8,
+    },
+    #"invasionFleetSizeMod":-0.15,
+    "invasionPointMult":0.7,
+    
+    "dropPrisoners":false,
+    
+    
+    "startShipsSolo":[["terran_BOP_standard"]],
+    "startShipsCombatSmall":[["terran_defiant_standard", "terran_miranda_standard"]],
+    "startShipsCombatLarge":[["terran_constellation_standard", "terran_excelsior_standard"]],
+    "startShipsSuper":[
+        ["terran_ambassador_standard"],
+        ["terran_galaxy_standard"],
+        ["terran_sovereign_standard"]
+    ]
+}

@@ -1,0 +1,227 @@
+{
+    "hullName":"Constellation",
+    "hullId":"terran_constellation",
+    "hullSize":"CRUISER",
+    "style":"TERRAN_TECH",
+    "spriteName":"graphics/ships/terran_constellation.png",
+    "height":402,
+    "width":208,
+    "center":[
+        104, 201
+    ],
+    "collisionRadius":512,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":405,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":270,
+            "locations":[
+                      96,      -35
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":89.5,
+            "locations":[
+                      97,       34
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":270.5,
+            "locations":[
+                      92,      -35
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":90,
+            "locations":[
+                      93,       34
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   -42.5,     10.5
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   -42.5,    -10.5
+            ]
+        },
+        {
+            "id":"WS 006",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     196,      6.5
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     196,     -6.5
+            ]
+        },
+        {
+            "id":"WS 008",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                     126,     -1.5
+            ]
+        },
+        {
+            "id":"WS 009",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                     126,      1.5
+            ]
+        },
+        {
+            "id":"LB 000",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                      95,    -93.5,
+                   191.5,    -11.5,
+                    98.5,    -98.5
+            ]
+        },
+        {
+            "id":"LB 001",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                      95,     93.5,
+                   191.5,     11.5,
+                    98.5,     98.5
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                -101.5, 13.5
+            ],
+            "length":0.5,
+            "width":15,
+            "angle":192,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                -101.5, -13.5
+            ],
+            "length":0.5,
+            "width":15,
+            "angle":168,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+            -100,      3.5,
+            -103,     19.5,
+            -130,       25,
+          -196.5,       26,
+          -196.5,       45,
+        
+           -20.5,     46.5,
+              50,       90,
+              79,    100.5,
+             113,     99.5,
+             133,       95,
+        
+             153,     83.5,
+           173.5,       65,
+           187.5,     43.5,
+           192.5,     27.5,
+             196,        7,
+        
+             196,       -7,
+           192.5,    -27.5,
+           187.5,    -43.5,
+           173.5,      -65,
+             153,    -83.5,
+        
+             133,      -95,
+             113,    -99.5,
+              79,   -100.5,
+              50,      -90,
+           -20.5,    -46.5,
+        
+          -196.5,      -45,
+          -196.5,      -26,
+            -130,      -25,
+            -103,    -19.5,
+            -100,     -3.5
+    # 30 points total.
+    ]
+}

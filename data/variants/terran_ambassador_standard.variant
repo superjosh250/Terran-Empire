@@ -1,0 +1,47 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"terran_ambassador",
+    "hullMods":[
+        "impulse_engines_capital",
+        "warp_core_large",
+        "terranShields"
+    ],
+    "quality":0.0,
+    "variantId":"terran_ambassador_standard",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 001":"phaser_typeIX",
+                "WS 002":"phaser_typeIX",
+                "WS 000":"phaser_typeIX",
+                "WS 012":"phaser_typeIX",
+                "WS 011":"phaser_typeIX"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 010":"photonTorpedo_standard",
+                "WS 009":"photonTorpedo_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 007":"phaser_typeIX_medium",
+                "WS 005":"phaser_typeIX_medium",
+                "WS 003":"phaser_typeIX_medium",
+                "WS 008":"phaser_typeIX_medium",
+                "WS 006":"phaser_typeIX_medium",
+                "WS 004":"phaser_typeIX_medium"
+            }
+        }
+    ]
+}

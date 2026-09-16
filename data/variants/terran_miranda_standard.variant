@@ -1,0 +1,54 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"terran_miranda",
+    "hullMods":[
+        "impulseEngines_small",
+        "warp_core_small",
+        "terranShields"
+    ],
+    "quality":0.0,
+    "variantId":"terran_miranda_standard",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 000":"phaser_typeVIII_medium",
+                "WS 001":"phaser_typeVIII_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 012":"photonTorpedo_x2_standard_medium",
+                "WS 013":"photonTorpedo_x2_standard_medium",
+                "WS 011":"photonTorpedo_x2_standard_medium",
+                "WS 010":"photonTorpedo_x2_standard_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 005":"phaser_typeVIII_medium",
+                "WS 003":"phaser_typeVIII_medium",
+                "WS 004":"phaser_typeVIII_medium",
+                "WS 002":"phaser_typeVIII_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 006":"phaser_typeVIII_mega",
+                "WS 007":"phaser_typeVIII_mega",
+                "WS 009":"phaser_typeVIII_mega",
+                "WS 008":"phaser_typeVIII_mega"
+            }
+        }
+    ]
+}

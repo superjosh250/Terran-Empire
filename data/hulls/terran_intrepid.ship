@@ -1,0 +1,292 @@
+{
+    "hullName":"Intrepid",
+    "hullId":"terran_intrepid",
+    "hullSize":"CRUISER",
+    "style":"TERRAN_TECH",
+    "spriteName":"graphics/ships/terran_intrepid.png",
+    "height":364,
+    "width":154,
+    "center":[
+        77, 182
+    ],
+    "collisionRadius":480,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":360,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     119,    -18.5
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     119,     18.5
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":322.5,
+            "locations":[
+                   106.5,    -27.5
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":37.5,
+            "locations":[
+                   106.5,     27.5
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":300,
+            "locations":[
+                    82.5,    -39.5
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":60,
+            "locations":[
+                    82.5,       40
+            ]
+        },
+        {
+            "id":"WS 006",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":268.5,
+            "locations":[
+                      61,      -44
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":91.5,
+            "locations":[
+                      60,       45
+            ]
+        },
+        {
+            "id":"WS 008",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":271,
+            "locations":[
+                      36,      -45
+            ]
+        },
+        {
+            "id":"WS 009",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":89,
+            "locations":[
+                      36,     45.5
+            ]
+        },
+        {
+            "id":"WS 010",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":222,
+            "locations":[
+                     -26,      -41
+            ]
+        },
+        {
+            "id":"WS 011",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":138,
+            "locations":[
+                     -26,       41
+            ]
+        },
+        {
+            "id":"WS 012",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     176,      -14
+            ]
+        },
+        {
+            "id":"WS 013",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     176,       14
+            ]
+        },
+        {
+            "id":"WS 014",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                   -43.5,      4.5
+            ]
+        },
+        {
+            "id":"WS 015",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                   -43.5,       -4
+            ]
+        },
+        {
+            "id":"TractorEmitter",
+            "size":"LARGE",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     154,      0.5
+            ]
+        },
+        {
+            "id":"TractorEmitterAFT",
+            "size":"LARGE",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    -141,      0.5
+            ]
+        }
+    ],
+    "engineSlots":[],
+    "bounds":[
+          -178.5,        6,
+          -174.5,     19.5,
+            -157,       25,
+            -156,     34.5,
+            -141,     53.5,
+        
+            -159,     52.5,
+          -164.5,     57.5,
+            -165,       70,
+          -160.5,       73,
+           -72.5,       71,
+        
+           -63.5,     68.5,
+             -64,     58.5,
+           -72.5,       56,
+           -92.5,     54.5,
+             -99,       40,
+        
+           -99.5,       25,
+           -54.5,     27.5,
+             -35,       40,
+            -1.5,     66.5,
+            28.5,     71.5,
+        
+            70.5,     70.5,
+           120.5,     60.5,
+             151,     44.5,
+             171,       24,
+           178.5,        7,
+        
+           178.5,       -7,
+             171,      -24,
+             151,    -44.5,
+           120.5,    -60.5,
+            70.5,    -70.5,
+        
+            28.5,    -71.5,
+            -1.5,    -66.5,
+             -35,      -40,
+           -54.5,    -27.5,
+           -99.5,      -25,
+        
+             -99,      -40,
+           -92.5,    -54.5,
+           -72.5,      -56,
+           -63.5,    -57.5,
+           -63.5,    -68.5,
+        
+           -72.5,      -71,
+          -160.5,      -73,
+            -165,      -70,
+          -164.5,    -57.5,
+            -159,    -52.5,
+        
+            -141,    -53.5,
+            -156,    -34.5,
+            -157,      -25,
+          -174.5,    -19.5,
+          -178.5,       -6
+    # 50 points total.
+    ]
+}

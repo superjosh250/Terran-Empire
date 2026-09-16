@@ -1,0 +1,109 @@
+{
+	"starSystem": "Malachite 61",
+	"markets": [
+		{
+			"entities": [
+				"starbase4_spacedock"
+			],
+			"faction": "terran_empire",
+			"size": 5,
+			"submarkets":["open_market", "generic_military", "storage", "black_market"],
+			"startingConditions": [
+				"population_5",
+				"station_habitat",
+				"habitable",
+				"headquarters",
+				"hydroponics_complex",
+				"mild_climate",
+				"established_polity",
+				"regional_capital"
+			],
+			"industries": [
+				"stationPopulation",
+				["starbase", "dealmaker_holosuite", "omega_core"],
+				["waystation_starfleet","gamma_core"],
+				["commerce", "gamma_core"],
+				["industrialReplicator", "pristine_nanoforge", "alpha_core"],
+				["techmining", "gamma_core"],
+				"spaceDock",
+				"heavybatteries",
+				["starfleet_ops", "cryothermic_engine", "alpha_core"]
+			]
+		},
+		{
+			"entities": [
+				"starbase4_drydock_alpha"
+			],
+			"faction": "terran_empire",
+			"size": 5,
+			"submarkets":["open_market", "generic_military", "storage", "black_market"],
+			"startingConditions": [
+				"population_5",
+				"station_habitat",
+				"habitable",
+				"shipbreaking_center",
+				"mild_climate",
+				"industrial_polity"
+			],
+			"industries": [
+				"stationPopulation",
+				"starbase",
+				"waystation_starfleet",
+				"techmining",
+				["drydock", "pristine_nanoforge", "alpha_core"],
+				["starfleet_ops", "alpha_core"],
+				["drydockDefenseNetwork", "alpha_core"]
+			],
+		},
+		{
+			"entities": [
+				"starbase4_drydock_beta"
+			],
+			"faction": "terran_empire",
+			"size": 5,
+			"submarkets":["open_market", "generic_military", "storage", "black_market"],
+			"startingConditions": [
+				"population_5",
+				"station_habitat",
+				"habitable",
+				"shipbreaking_center",
+				"mild_climate",
+				"industrial_polity"
+			],
+			"industries": [
+				"stationPopulation",
+				"starbase",
+				"waystation_starfleet",
+				"techmining",
+				["drydock", "pristine_nanoforge", "alpha_core"],
+				["starfleet_ops", "alpha_core"],
+				["drydockDefenseNetwork", "alpha_core"]
+			]
+		},
+		{
+			"entities": [
+				"starbase4_drydock_gamma"
+			],
+			"faction": "terran_empire",
+			"size": 5,
+			"submarkets":["open_market", "generic_military", "storage", "black_market"],
+			"startingConditions": [
+				"population_5",
+				"station_habitat",
+				"habitable",
+				"shipbreaking_center",
+				"mild_climate",
+				"industrial_polity"
+			],
+			"industries": [
+				"stationPopulation",
+				"starbase",
+				"waystation_starfleet",
+				"techmining",
+				["drydock", "pristine_nanoforge", "alpha_core"],
+				["starfleet_ops", "alpha_core"],
+				["drydockDefenseNetwork", "alpha_core"]
+			]
+		}
+	]	
+}

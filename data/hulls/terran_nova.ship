@@ -1,0 +1,241 @@
+{
+    "hullName":"Nova",
+    "hullId":"terran_nova",
+    "hullSize":"FRIGATE",
+    "style":"TERRAN_TECH",
+    "spriteName":"graphics/ships/terran_nova.png",
+    "height":190,
+    "width":100,
+    "center":[
+        50, 95
+    ],
+    "collisionRadius":300,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":270,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                      71,      -20
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                      71,       20
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":329,
+            "locations":[
+                      63,    -25.5
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":31,
+            "locations":[
+                      63,     25.5
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":292.5,
+            "locations":[
+                      55,    -29.5
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":67.5,
+            "locations":[
+                      55,     29.5
+            ]
+        },
+        {
+            "id":"WS 006",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":270,
+            "locations":[
+                      43,    -33.5
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":90,
+            "locations":[
+                      43,     33.5
+            ]
+        },
+        {
+            "id":"WS 008",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":206,
+            "locations":[
+                       9,      -32
+            ]
+        },
+        {
+            "id":"WS 009",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":154,
+            "locations":[
+                       9,       32
+            ]
+        },
+        {
+            "id":"WS 010",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                    87.5,     -0.5
+            ]
+        },
+        {
+            "id":"WS 011",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":180,
+            "locations":[
+                     -25,        0
+            ]
+        },
+        {
+            "id":"LB 000",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                     -52,        0,
+                     -57,        0
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                5, -0.5
+            ],
+            "length":0.5,
+            "width":12,
+            "angle":180,
+            "contrailSize":20,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+             -59,      5.5,
+             -31,     14.5,
+             -40,     31.5,
+             -71,       33,
+           -92.5,       35,
+        
+           -92.5,     43.5,
+           -63.5,       46,
+           -12.5,       46,
+               1,       42,
+               1,     36.5,
+        
+           -11.5,     32.5,
+             -26,     31.5,
+            -9.5,     17.5,
+            -0.5,     18.5,
+            17.5,     47.5,
+        
+            44.5,     43.5,
+            61.5,       37,
+            78.5,     26.5,
+            89.5,       15,
+              93,        9,
+        
+            86.5,      8.5,
+            86.5,     -8.5,
+              93,       -9,
+            89.5,      -15,
+            78.5,    -26.5,
+        
+            61.5,      -37,
+            44.5,      -45,
+            18.5,    -48.5,
+            -0.5,    -18.5,
+            -9.5,    -17.5,
+        
+             -26,    -31.5,
+           -11.5,    -32.5,
+               1,    -36.5,
+               1,      -42,
+           -12.5,      -46,
+        
+           -63.5,      -47,
+             -93,    -43.5,
+             -93,    -36.5,
+             -72,      -32,
+             -40,    -31.5,
+        
+             -32,      -17,
+           -33.5,    -12.5,
+             -59,     -5.5
+    # 43 points total.
+    ]
+}

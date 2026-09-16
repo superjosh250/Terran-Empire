@@ -1,0 +1,62 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"terran_sovereign",
+    "hullMods":[
+        "impulse_engines_capital",
+        "warp_core_sovereign",
+        "terranShields"
+    ],
+    "quality":0.0,
+    "variantId":"terran_sovereign_standard",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 004":"phaser_typeXII",
+                "WS 002":"phaser_typeXII",
+                "WS 000":"phaser_typeXII",
+                "WS 001":"phaser_typeXII",
+                "WS 003":"phaser_typeXII",
+                "WS 018":"phaser_typeXII",
+                "WS 017":"phaser_typeXII",
+                "WS 016":"phaser_typeXII",
+                "WS 015":"phaser_typeXII"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 025":"photonTorpedo_standard",
+                "WS 023":"photonTorpedo_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 005":"phaser_typeXII",
+                "WS 007":"phaser_typeXII",
+                "WS 009":"phaser_typeXII",
+                "WS 011":"phaser_typeXII",
+                "WS 013":"phaser_typeXII",
+                "WS 014":"phaser_typeXII",
+                "WS 012":"phaser_typeXII",
+                "WS 010":"phaser_typeXII",
+                "WS 008":"phaser_typeXII",
+                "WS 006":"phaser_typeXII"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 024":"quantumTorpedo_standard"
+            }
+        }
+    ]
+}

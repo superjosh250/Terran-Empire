@@ -1,0 +1,66 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"terran_akira",
+    "hullMods":[
+        "impulse_engines",
+        "warp_core_standard",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"terran_akira_standard",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 002":"phaser_typeX_medium",
+                "WS 000":"phaser_typeX_medium",
+                "WS 009":"phaser_typeX_medium",
+                "WS 001":"phaser_typeX_medium",
+                "WS 012":"phaser_typeX_medium",
+                "WS 010":"phaser_typeX_medium",
+                "WS 013":"phaser_typeX_medium",
+                "WS 011":"phaser_typeX_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 017":"photonTorpedo_x1_standard",
+                "WS 016":"photonTorpedo_x1_standard",
+                "WS 015":"photonTorpedo_x2_standard",
+                "WS 014":"photonTorpedo_x2_standard",
+                "WS 018":"photonTorpedo_x1_standard",
+                "WS 021":"photonTorpedo_x1_standard",
+                "WS 020":"photonTorpedo_x1_standard",
+                "WS 019":"photonTorpedo_x1_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 008":"phaser_typeX_medium",
+                "WS 006":"phaser_typeX_medium",
+                "WS 004":"phaser_typeX_medium",
+                "WS 007":"phaser_typeX_medium",
+                "WS 005":"phaser_typeX_medium",
+                "WS 003":"phaser_typeX_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 025":"photonTorpedo_x1_standard",
+                "WS 023":"photonTorpedo_x1_standard",
+                "WS 024":"photonTorpedo_x1_standard",
+                "WS 022":"photonTorpedo_x1_standard"
+            }
+        }
+    ]
+}
